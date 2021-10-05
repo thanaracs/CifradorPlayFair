@@ -1,0 +1,26 @@
+<html>
+<script src="cifrador.js"></script>
+<link rel="stylesheet" href="estilo.css">
+
+
+<body style="background-color: thistle;">
+    <h2>Cifrador de PlayFair</h1>
+        <div id="organizar">
+            <!-- CIFRADOR-->
+            <label for="palavra"><b>Palavra para cifrar:</b></label>
+            <input type="text" id="palavra" name="palavra"><br><br>
+            <label for="respostaCifrada"><b>Palavra cifrada:</b></label><br>
+            <textarea id="respostaCifrada" name="respostaCifrada" rows="4" cols="50">
+       O resultado aparecerá aqui!
+    </textarea>
+            <button id="btn-cifrador" onClick={cifrador()}>
+    Cifrar
+    </button>
+            <!-- DESCIFRAR-->
+            <button id="btn-descifrar" onClick={descifrador()}>
+    Descifrar
+    </button>
+        </div>
+</body>
+
+</html>

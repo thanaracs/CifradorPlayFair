@@ -1,0 +1,15 @@
+h2 {
+    position: fixed;
+    left: 20%;
+    top: 25%;
+}
+
+#organizar {
+    position: fixed;
+    left: 20%;
+    top: 40%;
+}
+
+#respostaCifrada {
+    color: palevioletred;
+}
